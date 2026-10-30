@@ -1,0 +1,5 @@
+import type { VenueProfile } from '../types/lab';
+export const samples: VenueProfile[] = [
+ {name:'Moss & Moon Bookshop',type:'Bookstore',city:'Bengaluru, India',personality:'A little neighborhood bookshop with sunlit corners, well-loved books, and a resident cat.',audience:'Curious readers, students, and neighbors looking for a gentle way to connect.',interests:['Studio Ghibli','Phoebe Bridgers','Haruki Murakami'],atmosphere:'Slow & cozy',budget:5000,capacity:24,format:'Open to possibilities',constraints:'Step-free layout, low music volume, and a quiet corner for anyone who needs a break.',currency:'INR'},
+ {name:'Sunday Window Café',type:'Café',city:'Pune, India',personality:'An easygoing café where the coffee is slow and the windows are always open.',audience:'Local creatives and neighbors who love relaxed conversations and making things.',interests:['Norah Jones','Before Sunrise','The Little Prince'],atmosphere:'Playful & creative',budget:7000,capacity:30,format:'Open to possibilities',constraints:'Keep the counter accessible and use the existing sound system.',currency:'INR'}
+];
